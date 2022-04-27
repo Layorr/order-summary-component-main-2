@@ -1,0 +1,78 @@
+$Paleblue: hsl(225, 100%, 94%);
+$Brightblue: hsl(245, 75%, 52%);
+$Verypaleblue: hsl(225, 100%, 98%) ;
+$Desaturatedblue: hsl(224, 23%, 55%);
+$Darkblue: hsl(223, 47%, 23%);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Red+Hat+Display:wght@500;700;900&family=Ubuntu&display=swap');
+
+
+body{
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 16px;
+    text-align: center;
+    .card{
+        max-width: 450px;
+        margin: 20px auto;
+        border-radius: 20px;
+        box-shadow: 0px 10px 20px $Paleblue;
+        img{
+            border-radius: 20px 20px 0 0;
+        }
+        .order{
+            width: 80%;
+            margin:auto;
+            p{
+                color: $Desaturatedblue;
+            }
+
+        }
+        .plan{
+            display:grid;
+            grid-auto-flow: column;
+            height:100px;
+            width:80%;
+            margin: auto;
+            background-color: $Verypaleblue;
+            border-radius: 20px;
+            img{
+                margin:auto;
+            }
+            .text{
+                text-align: left;
+                h2{
+                  margin-bottom: 5px;
+                }
+                p{
+                    margin-top: 0px;
+                    color: $Desaturatedblue;
+                }
+            }
+            a{
+                margin: auto;
+            }
+
+        }
+        .button{
+            width:80%;
+            height: 40px;
+            margin: 20px auto;
+            border-radius: 10px;
+            background-color: $Brightblue;
+            box-shadow: 0px 10px 20px $Brightblue;
+            a{
+                color: $Paleblue;
+                text-decoration: none;
+                font-weight: 900;
+            }
+
+        }
+        .cancel > a{
+            text-decoration: none;
+            color: $Desaturatedblue;
+            font-weight: 700;
+        }
+        .attribution{
+            margin-top: 20px;
+        }
+    }
+}
