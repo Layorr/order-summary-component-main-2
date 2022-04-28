@@ -82,3 +82,16 @@ body{
         }
     }
 }
+
+@media screen and (max-width:600px){
+    body{
+        //min-width:100px;
+        .card{
+            width: 375px;
+            .img img{
+                width:375px;
+            }
+        }
+    }
+    
+}
