@@ -80,10 +80,15 @@ body .card .button a {
   font-weight: 900;
 }
 
-body .card .cancel > a {
+body .card .cancel a,
+body .card .cancel :active {
   text-decoration: none;
   color: #7280a7;
   font-weight: 700;
+}
+
+body .card .cancel a:hover {
+  color: black;
 }
 
 body .card .attribution {

@@ -72,10 +72,16 @@ body{
             }
 
         }
-        .cancel > a{
+        .cancel {
+            a,
+            :active{
             text-decoration: none;
             color: $Desaturatedblue;
             font-weight: 700;
+             }
+            a:hover{
+                color: black;
+            }
         }
         .attribution{
             margin-top: 20px;
