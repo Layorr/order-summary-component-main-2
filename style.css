@@ -3,6 +3,11 @@ body {
   font-family: "Red Hat Display", sans-serif;
   font-size: 16px;
   text-align: center;
+  background-image: url(/images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-color: #e0e8ff;
+  max-width: 1440px;
+  max-height: 900px;
 }
 
 body .card {
@@ -11,6 +16,7 @@ body .card {
   border-radius: 20px;
   -webkit-box-shadow: 0px 10px 20px #e0e8ff;
           box-shadow: 0px 10px 20px #e0e8ff;
+  background-color: white;
 }
 
 body .card img {
