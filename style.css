@@ -64,9 +64,13 @@ body .card .plan a {
   margin: auto;
 }
 
+body .card .plan a:hover {
+  text-decoration: none;
+}
+
 body .card .button {
   width: 80%;
-  height: 40px;
+  height: 50px;
   margin: 20px auto;
   border-radius: 10px;
   background-color: #3829e0;
@@ -78,6 +82,13 @@ body .card .button a {
   color: #e0e8ff;
   text-decoration: none;
   font-weight: 900;
+}
+
+body .card .button:hover {
+  -webkit-filter: hue-rotate(25deg);
+          filter: hue-rotate(25deg);
+  -webkit-filter: opacity(0.8);
+          filter: opacity(0.8);
 }
 
 body .card .cancel a,

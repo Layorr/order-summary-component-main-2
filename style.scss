@@ -56,11 +56,14 @@ body{
             a{
                 margin: auto;
             }
+            a:hover{
+                text-decoration: none;
+            }
 
         }
         .button{
             width:80%;
-            height: 40px;
+            height: 50px;
             margin: 20px auto;
             border-radius: 10px;
             background-color: $Brightblue;
@@ -71,6 +74,10 @@ body{
                 font-weight: 900;
             }
 
+        }
+        .button:hover{
+            filter: hue-rotate(25deg);
+            filter: opacity(0.8);
         }
         .cancel {
             a,
